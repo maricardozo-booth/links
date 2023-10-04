@@ -8,6 +8,13 @@
         display: flex;
         justify-content: center;
 }
+.items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 320px;
+        flex-grow: 1;}
+
       .banner-image {
         width: 128px;
         height: 128px;
@@ -24,13 +31,6 @@
         display: flex;
         justify-content: center;
       }
-      .items {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        max-width: 640px;
-        flex-grow: 1;
-      }
       .name {
         color: #fffffe;
         display: flex;
@@ -42,13 +42,13 @@
         display: flex;
         text-decoration: none;
         justify-content: space-around;
-        padding: 5px;
-      }
+        padding: 5px;}
+
       .link {
         background-color: #d9c5f0;
         display: flex;
         align-items: center;
-        
+        justify-content: space-around;
         padding: 5px;
       }
       .link a {
@@ -58,6 +58,10 @@
         text-align: center;
         flex-grow: 1;
 }
+      .social-icons {
+          display: flex;
+          justify-content: space-around;
+      }
 </style>
 </head>
 
@@ -83,19 +87,19 @@
     <a href="https://www.instagram.com/marilcardozo/" target="_blank">
       Instagram
     </a>
-
+  </div>
   <div class="link">
     <img src="/thumbnails/bookicon.png" alt="Book icon" class="thumbnail">
 
     <a target="_blank"
-      href="https://www.amazon.com/Shadow-Wind-Carlos-Ruiz-Zaf%C3%B3n/dp/0143034901">My favorite book</a>
+      href="https://www.amazon.com/Shadow-Wind-Carlos-Ruiz-Zaf%C3%B3n/dp/0143034901"> My favorite book - Shadow of the Wind</a>
   </div>
 
   <div class="link">
     <img
       src="/thumbnails/bookicon.png" alt="Book icon" class="thumbnail">
 
-    <a target="_blank" href="https://www.amazon.com/Good-Mothers-Story-Worlds-Powerful/dp/0062655604">Currently Reading</a>
+    <a target="_blank" href="https://www.amazon.com/Good-Mothers-Story-Worlds-Powerful/dp/0062655604"> Currently Reading - The Good Mothers</a>
   </div>
 </div>
 </body>
