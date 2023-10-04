@@ -4,7 +4,9 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-background-color: #094067;
+        background-color: #094067;
+        display: flex;
+        justify-content: center;
 }
       .banner-image {
         width: 128px;
@@ -16,30 +18,39 @@ background-color: #094067;
         width: 48px;
         height: 48px;
         border-radius: 48px;
-        object-fit: cover;}
-.items {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  max-width: 640px;
-}
-.name {
-  color: #fffffe;
-}
-.social-icons a {
-  color: #fffffe;
-  text-decoration: none;
-}
-.link {
-  background-color: #f9bc60;
-  display: flex;
-  align-items: center;
-}
-.link a {
-  color: #001e1d;
-  text-decoration: none;
-  text-align: center;
-  flex-grow: 1;
+        object-fit: cover;
+      }
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+      .name {
+        color: #fffffe;
+        justify-content: center;
+      }
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+        justify-content: space-around;
+      }
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
 }
 </style>
 </head>
