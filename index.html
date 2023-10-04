@@ -4,7 +4,7 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
-background-color: #004643;
+background-color: #094067;
 }
       .banner-image {
         width: 128px;
@@ -19,6 +19,9 @@ background-color: #004643;
         object-fit: cover;}
 .items {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
 }
 .name {
   color: #fffffe;
@@ -29,10 +32,14 @@ background-color: #004643;
 }
 .link {
   background-color: #f9bc60;
+  display: flex;
+  align-items: center;
 }
 .link a {
   color: #001e1d;
   text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
 }
 </style>
 </head>
